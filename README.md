@@ -22,10 +22,10 @@ Static pathogen run with 500 agents, 70x70 grid, 45 initially infected agents, w
 Evolving pathogen run with 500 agents, 70x70 grid, 45 initially infected agents, with `p = 0.1` and a mutation rate of `mutrate = 0.05`
 <img width="1080" height="450" alt="evolve" src="https://github.com/user-attachments/assets/07cb3fab-6175-4a32-b43b-2de81f8a9834" />
 ### Phase Transition (mobility vs infectivity)
-Parameter scan done across a range of 30 mobility and infectivity values, with 20 iterations per value pair. I used an Intel(R) Core i7-14700HX for performing the parameter scan.
+Parameter scan done across a range of 20 mobility and infectivity values, with 15 iterations per value pair. I used an Intel(R) Core i7-14700HX for performing the parameter scan.
 | Average Duration Heatmap | Standard Deviation (of duration) Heatmap |
-| :---: | :--- |
-| <img width="576" height="575" alt="avg_days_heatmap" src="https://github.com/user-attachments/assets/23818e9a-75c2-4ef4-855a-a15958e999e9" /> | <img width="576" height="575" alt="stddev_heatmap" src="https://github.com/user-attachments/assets/f190100a-f5fa-463c-b384-96f8dc0878c6" /> |
+| :---: | :---: |
+|<img width="576" height="591" alt="avg" src="https://github.com/user-attachments/assets/310ec25c-2e5f-4dfd-9d22-8258181ae4e1" /> | <img width="567" height="591" alt="std" src="https://github.com/user-attachments/assets/ac2dfdda-a71e-452d-869c-7352bf52a482" /> |
 
 ## Running this model
 How to install this model:
