@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 if __name__ == "__main__":
 
     print("Single run static")
-    model_static = Model(n=500, grid=70, init_infect=45, seed=42, p=0.1, evolve=False)
+    model_static = Model(n=500, grid=70, init_infect=45, p=0.1, evolve=False)
     history_static = model_static.run(day=200, mobility=4)
     plot_single_run(history_static)
     plt.title("Single Run Static")
@@ -14,7 +14,7 @@ if __name__ == "__main__":
     animate_epidemic(history_static, model_static.agents, grid_size=70, filename='static.gif')
 
     print("Single run evolving")
-    model_evolve = Model(n=500, grid=70, init_infect=45, seed=42, p=0.1, evolve=True, mutrate=0.05)
+    model_evolve = Model(n=500, grid=70, init_infect=45, p=0.1, evolve=True, mutrate=0.05)
     history_evolve = model_evolve.run(day=200, mobility=4)
     plot_single_run(history_evolve)
     plt.title("Single Run Evolving")
