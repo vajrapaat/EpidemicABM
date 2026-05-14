@@ -40,7 +40,7 @@ python main.py
 ```
 For the parameter sweep (Note that it is computationally intensive):
 ```bash
-python paramsweep.py
+python sweep.py
 ```
 
 ## References
